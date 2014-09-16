@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560AFD3219C6A7D900DCEADB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560AFD3119C6A7D900DCEADB /* WelcomeViewController.swift */; };
 		563A8C1019C539B00018BB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A8C0F19C539B00018BB43 /* AppDelegate.swift */; };
 		563A8C1219C539B00018BB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A8C1119C539B00018BB43 /* ViewController.swift */; };
 		563A8C1519C539B00018BB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563A8C1319C539B00018BB43 /* Main.storyboard */; };
 		563A8C1719C539B00018BB43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563A8C1619C539B00018BB43 /* Images.xcassets */; };
 		563A8C2319C539B00018BB43 /* CarVersion2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A8C2219C539B00018BB43 /* CarVersion2Tests.swift */; };
+		563A8C2D19C53C350018BB43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A8C2C19C53C350018BB43 /* LoginViewController.swift */; };
+		56C34F9919C7F8A0004FBB07 /* FeedFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C34F9819C7F8A0004FBB07 /* FeedFeedViewController.swift */; };
+		56C34F9B19C7FA80004FBB07 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C34F9A19C7FA80004FBB07 /* ConversationsViewController.swift */; };
+		56C34F9D19C7FCE0004FBB07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C34F9C19C7FCE0004FBB07 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560AFD3119C6A7D900DCEADB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		563A8C0A19C539B00018BB43 /* CarVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563A8C0E19C539B00018BB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563A8C0F19C539B00018BB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +40,10 @@
 		563A8C1C19C539B00018BB43 /* CarVersion2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarVersion2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		563A8C2119C539B00018BB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563A8C2219C539B00018BB43 /* CarVersion2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarVersion2Tests.swift; sourceTree = "<group>"; };
+		563A8C2C19C53C350018BB43 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56C34F9819C7F8A0004FBB07 /* FeedFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedFeedViewController.swift; path = ../FeedFeedViewController.swift; sourceTree = "<group>"; };
+		56C34F9A19C7FA80004FBB07 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		56C34F9C19C7FCE0004FBB07 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +85,14 @@
 		563A8C0C19C539B00018BB43 /* CarVersion2 */ = {
 			isa = PBXGroup;
 			children = (
+				56C34F9819C7F8A0004FBB07 /* FeedFeedViewController.swift */,
 				563A8C0F19C539B00018BB43 /* AppDelegate.swift */,
 				563A8C1119C539B00018BB43 /* ViewController.swift */,
 				563A8C1319C539B00018BB43 /* Main.storyboard */,
+				56C34F9C19C7FCE0004FBB07 /* SettingsViewController.swift */,
+				56C34F9A19C7FA80004FBB07 /* ConversationsViewController.swift */,
+				560AFD3119C6A7D900DCEADB /* WelcomeViewController.swift */,
+				563A8C2C19C53C350018BB43 /* LoginViewController.swift */,
 				563A8C1619C539B00018BB43 /* Images.xcassets */,
 				563A8C0D19C539B00018BB43 /* Supporting Files */,
 			);
@@ -208,6 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A8C2D19C53C350018BB43 /* LoginViewController.swift in Sources */,
+				56C34F9919C7F8A0004FBB07 /* FeedFeedViewController.swift in Sources */,
+				56C34F9D19C7FCE0004FBB07 /* SettingsViewController.swift in Sources */,
+				560AFD3219C6A7D900DCEADB /* WelcomeViewController.swift in Sources */,
+				56C34F9B19C7FA80004FBB07 /* ConversationsViewController.swift in Sources */,
 				563A8C1219C539B00018BB43 /* ViewController.swift in Sources */,
 				563A8C1019C539B00018BB43 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +417,7 @@
 				563A8C2819C539B00018BB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563A8C2919C539B00018BB43 /* Build configuration list for PBXNativeTarget "CarVersion2Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +426,7 @@
 				563A8C2B19C539B00018BB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

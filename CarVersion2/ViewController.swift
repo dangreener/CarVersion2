@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBOutlet weak var signin: UIButton!
+    @IBOutlet var ScrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        ScrollView.contentSize = CGSize(width: 320, height: 1136)
     }
 
     override func didReceiveMemoryWarning() {
